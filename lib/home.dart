@@ -1,4 +1,5 @@
 import 'package:bossing/cafe_favoris.dart';
+import 'package:bossing/styled_body_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -28,12 +29,7 @@ class Home extends StatelessWidget {
           Container(
             color: Colors.brown[300],
             padding: const EdgeInsets.all(20),
-            child: const Text('I really like coffee...'),
-          ),
-          Container(
-            color: Colors.brown[200],
-            padding: const EdgeInsets.all(20),
-            child: const Text('Café favoris'),
+            child: const StyledBodyText('I really like coffee'),
           ),
           Container(
             color: Colors.brown[100],
